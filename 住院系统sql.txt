@@ -1,0 +1,12 @@
+﻿住院系统sql
+
+select * from BASE_DEPT_WARD  t    where t.ward_id='88a55b6f958f429983ca914a86336331';
+select * from  BASE_DEPT t  where t.id='990881e2bccd4f9591065615928d54b3';
+select * from BASE_DEPT_STAFF t where t.staff_id='06a09bed774f4e6b897e53f2c4b86128';
+select * from BASE_DEPT_STAFF t right join BASE_STAFF  t2 on t2.id=t.staff_id    where t.dept_ID='ebdf8f288f7249309487affc802aa96b'
+
+
+
+HIS查询转入患者
+SELECT * from zy..yz_zkxx where zyh='12290007'
+SELECT * from zy..zyb_cwwh where zyh='12290007'
